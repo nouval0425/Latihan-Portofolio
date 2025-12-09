@@ -210,13 +210,16 @@ img{
 .skill{
     margin-top: 60px;
     display: flex;
-    gap: 30px;
+    gap: 40px;
     flex-wrap: wrap;
-    font-size: 18px;
+    align-items: center;
+    justify-content: center;
 }
 
 .skill img{
-    width: 55px;
+width: 70px;      /* ukuran gambar sama */
+  object-fit: cover; /* membuat gambar memenuhi kotak */
+  border-radius: 8px;
 }
 
 /* ===============================
