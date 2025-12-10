@@ -56,7 +56,7 @@ table {
 
 body{
     background: #06142E; /* navy gelap */
-    color: #E8ECF1;
+    color: #e6e6e6;
     line-height: 1.6;
 }
 
@@ -153,7 +153,9 @@ img{
 .intro-name h1{
     font-size: 48px;
     font-weight: 700;
-    color: #fff;
+    color: #e6e6e6;
+    font-family: "Playfair Display", serif;
+    margin-top: -180px;
 }
 
 .intro-name h1 b{
@@ -171,7 +173,9 @@ img{
     margin-top: 20px;
     max-width: 500px;
     font-size: 15px;
-    color: #cbd8f3;
+    color: #e6e6e6;
+    font-family: "Poppins", sans-serif;
+
 }
 
 .intro-name img{
@@ -190,6 +194,7 @@ img{
     padding: 40px;
     border-radius: 20px;
     background: #0B1A3C;
+   
 }
 .education img{
     width: 100%;
@@ -207,9 +212,11 @@ img{
 }
 
 .education p{
-    color: #d8e4ff;
+    color: #e6e6e6;
     font-size: 16px;
     max-width: 900px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
 }
 
 /* ===============================
@@ -228,6 +235,7 @@ img{
 width: 70px;      /* ukuran gambar sama */
   object-fit: cover; /* membuat gambar memenuhi kotak */
   border-radius: 8px;
+  border-radius: 30%;
 }
 
 /* ===============================

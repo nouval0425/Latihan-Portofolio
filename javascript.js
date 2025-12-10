@@ -20,8 +20,12 @@ let next;
 let index =0
 let image =document.getElementById("slider")
 let gambar=[
-"me.jpeg",
-"instagram.jpg"
+"slider1.jpeg",
+"slider2.jpeg",
+"slider3.jpeg",
+"slider4.jpeg",
+"slider5.jpeg",
+"slider6.jpeg",
 ]
 
 function update(){
